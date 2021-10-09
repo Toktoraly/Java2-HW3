@@ -16,7 +16,8 @@ public class Main {
                 System.out.println(e.getMessage()+
                         "\nВы обналичили весь остаток: " + bankAccount.getAmount());
                 bankAccount.withDraw(bankAccount.getAmount());
-                System.out.println("Ваш баланс в данный момент составляет:" + bankAccount.getAmount());
+                System.out.println("Ваш баланс в данный момент составляет:" + bankAccount.getAmount()+ "    " +
+                        "\nположите еще наличку");
 
 
                 break;
